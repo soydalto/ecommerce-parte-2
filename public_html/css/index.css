@@ -1,0 +1,125 @@
+.fruit img {
+	width: 130px;
+	height: 130px;
+	background-color: #fff;
+	border: 3px solid #fff;
+}
+.fruit-section {
+	display: flex;
+	justify-content: space-between;
+}
+.fruit {
+	margin: 30px
+}
+
+.buy {
+	background-color: #48e;
+	padding: 6px 9px;
+	color: #eee;
+	border: none;
+	transition: all 0.12s;
+}
+.buy:hover {
+	background-color: #26c;
+	padding: 6px 9px;
+	color: #fff;
+	border: none;
+}
+
+.about-fruit {
+	text-align: center;
+}
+.about-fruit b {
+	color: #48e
+}
+.about-fruit p {
+	color: #676767;
+	margin-bottom: 3px
+}
+.about-fruit span {
+	color: #48e
+}
+
+.fruits {
+	display: flex;
+}
+
+.all-fruits {
+	flex: 2;
+	margin-left: 90px;
+	margin-right: 40px
+}
+.show-cart {
+	flex: 1;
+}
+
+.show-cart {
+	padding: 26px
+}
+
+
+.show-cart .h3-text {
+background-color: #48e;
+padding: 12px;
+color: #fff
+}
+
+.show-cart .cart {
+	background-color: #fff;
+}
+
+.cart .item {
+	padding: 8px 25px;
+    border-top: solid 1px rgba(38,136,238,0.35);
+    color: #48e
+}
+
+.item p {
+	color: #454545
+}
+
+.item p b {
+	color: #676767
+}
+
+.cart .item:last-child {
+	padding-bottom: 16px
+}
+.cart .item:first-child {
+	padding-top: 16px
+}
+
+.show-cart .final-result{
+	padding: 16px;
+	text-align: center;
+}
+
+.final-result b {
+	color: #676767
+}
+
+.separate {
+	margin-left: 9px
+}
+
+@keyframes desaparecerNav{
+    0% {
+    	margin-top: 0;
+    	opacity: 1
+    }
+    100% {
+    	margin-top: -100%;
+    	opacity: 0;
+    }
+}
+@keyframes aparecerNav{
+
+    0% {
+    	margin-top: -100%;
+    	opacity: 0
+    }
+    100% {
+    	margin-top: 0;
+    	opacity: 1;
+    }
+}
